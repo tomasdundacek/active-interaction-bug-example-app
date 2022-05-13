@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/AaronLasseigne/active_interaction.git
+  revision: 8677e37770be67d9279e84b146027ae251f9702e
+  ref: 8677e37770be67d9279e84b146027ae251f9702e
+  specs:
+    active_interaction (4.0.1)
+      activemodel (>= 5, < 7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,9 +47,6 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
-    active_interaction (4.1.0)
-      activemodel (>= 5, < 8)
-      activesupport (>= 5, < 8)
     activejob (6.1.6)
       activesupport (= 6.1.6)
       globalid (>= 0.3.6)
@@ -164,7 +169,7 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  active_interaction (= 4.1.0)
+  active_interaction!
   debug
   puma (~> 5.0)
   rails (< 7)
